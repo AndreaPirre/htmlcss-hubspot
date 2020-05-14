@@ -20,3 +20,20 @@
 .nav {
     background-color: green;
 }
+
+.colonna20{
+    width: 20%;
+    height: 100px;
+    background-color: yellow;
+    float: left;
+}
+
+.colonna80 {
+    width: 80%;
+    height: 100px;
+    background-color: pink;
+    float: left;
+
+
+
+}
