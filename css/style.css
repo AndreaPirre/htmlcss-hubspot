@@ -33,7 +33,11 @@
     height: 100px;
     background-color: pink;
     float: left;
-
-
+}
+.colonne33 {
+    width: calc(100% / 3);
+    height: 100px;
+    background-color: brown;
+    float: left;
 
 }
