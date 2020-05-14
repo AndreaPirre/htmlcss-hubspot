@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.blocchi::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.colonne50 {
+    width: 50%;
+    height: 100px;
+    background-color: red;
+    float: left;
+}
+
+.nav {
+    background-color: green;
+}
