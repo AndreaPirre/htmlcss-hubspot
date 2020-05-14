@@ -39,5 +39,13 @@
     height: 100px;
     background-color: brown;
     float: left;
+}
+
+.colonne25 {
+    width: calc(100% / 4);
+    height: 100px;
+    background-color: purple;
+    float: left;
+
 
 }
