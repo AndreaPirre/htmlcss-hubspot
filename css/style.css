@@ -4,6 +4,18 @@
     box-sizing: border-box;
 }
 
+.centratura {
+    padding: 0 10%;
+}
+
+.fixedlogin {
+    width: 100vw;
+    height: 80px;
+    background-color: #f4f9fd;
+    border-bottom: 1px solid #000;
+    position: fixed;
+}
+
 .blocchi::after {
     content: "";
     display: table;
@@ -13,8 +25,10 @@
 .colonne50 {
     width: 50%;
     height: 100px;
-    background-color: red;
     float: left;
+    /* debug */
+    background-color: ;
+
 }
 
 .nav {
@@ -46,6 +60,4 @@
     height: 100px;
     background-color: purple;
     float: left;
-
-
 }
