@@ -15,7 +15,7 @@ body {
 }
 
 .centratura {
-    padding: 0 10%;
+    padding: 0 15%;
 }
 /* barra fissa in alto */
 .menufixed {
@@ -81,7 +81,7 @@ body {
     background-position: right;
 }
 main {
-    background-color: #f4f9fd; 
+    background-color: #f4f9fd;
 }
 .imgcubo {
     width: 100%;
@@ -97,6 +97,43 @@ main {
 
 #cubetext {
     margin-top: 20px;
+}
+
+.box {
+    width: 100%;
+    height: 400px;
+    background-color:#fff;
+    border: 1px solid lightgrey;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+}
+
+#crm {
+    width: 150px;
+    height: 150px;
+    padding: 15px;
+    margin-left: 100px;
+    margin-top: 60px;
+}
+.crmicona h3 {
+    text-align: center;
+    margin-left: 120px;
+}
+
+.crmtesto {
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.crmtesto p {
+
+    margin-top: 20px;
+}
+
+#popolar {
+    padding-top: 30px;
+    font-weight: bold;
 }
 
 
