@@ -130,11 +130,17 @@ main {
     margin-top: 20px;
 }
 
-#separatore {
-    width: 200px;
-    height: 1px;
-    bo
+#popular {
+ padding-top: 20px;
 
+}
+
+#separatore {
+    width: 300px;
+    height: 1px;
+    background-color: black;
+    display: inline-block;
+    margin-left: 40px;
 }
 
 
