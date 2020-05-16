@@ -28,14 +28,12 @@ body {
     line-height: 80px;
 }
 
-.englishlist {
+.englishlist, .pulsante{
     display: inline-block;
 }
 
-.search {
-    float: right;
-}
-.navbar {
+
+.navbar, .search {
     float: right;
 }
 
@@ -130,27 +128,105 @@ main {
     margin-top: 20px;
 }
 
-#popular {
- padding-top: 20px;
-
-}
-
-#separatore {
-    width: 300px;
-    height: 1px;
-    background-color: black;
+.popular {
+    margin-top: 30px;
     display: inline-block;
-    margin-left: 40px;
 }
 
+.separatore {
+    width: 400px;
+    height: 2px;
+    margin-bottom: 4px;
+    margin-left: 30px;
+    background-color: grey;
+    display: inline-block;
+}
 
+.iconecheck {
+    margin-top: 50px;
+}
+
+.fas {
+    color: #fe775a;
+    padding: 8px;
+}
 
 
 .colonne33 {
     width: calc(100% / 3);
-    height: 100px;
-    background-color: brown;
+    /* height: 100px; */
+    /* background-color:#fff; */
+    /* border: 1px solid black; */
     float: left;
+}
+
+.icona3colonne {
+    width: 301.3px;
+    height: 80px;
+    margin-top: 30px;
+}
+
+.contenuto33 {
+    width: 301.3px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.separatore3colonne {
+    width: 261.3px;
+    height: 2px;
+    background-color: grey;
+    display: inline-block;
+    margin-top: 40px;
+}
+
+.feature {
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.lista33 {
+     list-style-type: none;
+     text-align: left;
+     line-height: 10px;
+}
+
+.lista33 > .fas {
+
+    padding: 2px;
+}
+
+.learnbutton {
+    background-color: #fe775a;
+    padding: 20px;
+    margin-top: 50px;
+    margin-left: 40px;
+    width: 180px;
+    border-radius: 5px;
+    color: #fff;
+
+}
+
+/* regole per box a 3 colonne */
+.box33, .box33right, .box33center {
+    width: 85%;
+    /* height: 400px; */
+    background-color:#fff;
+    border: 1px solid lightgrey;
+    border-radius: 15px;
+}
+/* box centrale */
+.box33center {
+    background-color: ;
+    margin-left: 27.44px;
+}
+/* box destra */
+.box33right {
+    float: right;
 }
 
 .colonne25 {
