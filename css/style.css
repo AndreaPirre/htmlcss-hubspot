@@ -150,10 +150,10 @@ main {
     margin-top: 50px;
 }
 
-.fas {
+/* .fas {
     color: #fe775a;
     padding: 8px;
-}
+} */
 
 
 .colonne33 {
@@ -289,7 +289,11 @@ main {
 .testocella h2 {
     font-size: 50px;
     margin-bottom: 15px
+}
 
+.iconecella > .fas {
+    padding: 0;
+    color: #fff;
 
 }
 
