@@ -32,8 +32,13 @@ a {
     line-height: 80px;
 }
 
-.englishlist, .pulsante{
+.englishlist, .pulsante, .tastinav{
     display: inline-block;
+}
+
+.tastinav {
+    margin-left: 30px;
+
 }
 
 
@@ -57,6 +62,10 @@ a {
     float: left;
 }
 
+.logohub {
+    margin-top: 25px;
+}
+
 /* barra con logo */
 .menunav {
     margin-top: 80px;
@@ -74,6 +83,24 @@ a {
     float: left;
 }
 
+h1 {
+    width: 600px;
+    line-height: 60px;
+
+    font-size: 40px;
+    color: #374a5e;
+}
+
+#title {
+    line-height: 30px;
+    width: 450px;
+    margin-bottom: 20px;
+}
+
+.textjumbo {
+padding-top: 50px;
+
+}
 .imgjumbo {
     width: 100%;
     height: 500px;
@@ -200,7 +227,6 @@ main {
 }
 
 .lista33 > .fas {
-
     padding: 2px;
 }
 
@@ -309,7 +335,7 @@ main {
     font-size: 30px;
 }
 
-.testobox2 p {
+.testobox2  p {
     text-align: left;
     margin-top: 20px;
     margin-left: 40px;
@@ -330,15 +356,131 @@ main {
     float: left;
     margin-left: 20px;
     padding: 10px;
+}
+
+.testobox3  {
+    margin-top: 20px;
+    width: 500px;
+    text-align: left;
+    font-size: 25px;
+}
+
+.testobox3  p {
+    text-align: left;
+    margin-top: 20px;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.learnbutton3 {
+    background-color: #fe775a;
+    padding: 20px;
+    margin-top: 10px;
+    width: 180px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+}
+
+.woman {
+    width: 220px;
+    height: 300px;
+    margin-left: 200px;
+    float: right;
+}
+
+.boxfooter {
+    width: 100%;
+    height: 400px;
+    background-color: #32495b;
+    margin-top: 100px;
+}
+
+.listfooter {
+    width: 265.86px;
+    /* height: 400px; */
+    background-color: ;
+    line-height: 40px;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.listfooter li {
+ list-style-type: none;
+}
+
+.supportbutton {
+    background-color: #dadee0;
+    padding: 1px;
+    margin-top: 10px;
+    width: 180px;
+    border-radius: 5px;
+    color: #32495b;
+    font-size: 12px;
+    text-align: center;
+}
+.iconesupport .fab {
+    margin-right: 20px;
 
 }
 
 
+.separatorefooter {
+    height: 1px;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 30px;
+
+}
+.boxcredit {
+    width: 100%;
+    height: 200px;
+    background-color: #32495b;
+}
+
+.legalinfo {
+    color: #fff;
+    float:right;
+}
+
+.legalinfo > li {
+    list-style-type: none;
+    float: right;
+    padding-left: 10px;
+}
+
+.lingue {
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.lingue li {
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.legalinfo > a {
+    color: #fff;
+}
+
+
+#bn {
+    filter: grayscale(100%);
+}
+
+#copy {
+    color: #fff;
+    margin-top: 15px;
+}
 
 
 .colonne25 {
     width: calc(100% / 4);
     height: 100px;
-    background-color: purple;
+    /* background-color: purple; */
     float: left;
 }
