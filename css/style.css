@@ -12,6 +12,11 @@ a {
     text-decoration: none;
 }
 
+a:visited {
+    color: #000;
+
+}
+
 /* regola clearfix */
 .riga::after {
     content: "";
@@ -23,6 +28,80 @@ a {
 .centratura {
     padding: 0 15%;
 }
+
+/* regola per 2 colonne */
+.colonna20 {
+    width: 20%;
+    height: 80px;
+    float: left;
+    /* background-color:yellow; */
+
+}
+
+/* regola per due colonne non centrate */
+.colonna80 {
+    width: 80%;
+    height: 80px;
+    float: left;
+    /* background-color: red; */
+}
+
+/* per colonne centrate  */
+.colonna50 {
+    width: 50%;
+    height: 80px;
+    background-color:;
+    float: left;
+}
+
+/* per sezione divisa in 3 */
+.colonne33 {
+    width: calc(100% / 3);
+    /* height: 100px; */
+    /* background-color:#fff; */
+    /* border: 1px solid black; */
+    float: left;
+}
+
+/* per sezione divisa in 4 */
+.colonne25 {
+    width: calc(100% / 4);
+    height: 100px;
+    /* background-color: purple; */
+    float: left;
+}
+/* gestione fa */
+.lista33 .fas {
+    color: #fe775a;
+}
+
+.iconecheck .fas {
+    color: #fe775a;
+    margin-right:10px;
+    margin-left: 10px;
+}
+
+.search .fas {
+    color: #75ccdb;
+}
+
+.navbar .fas {
+    margin-left: 8px;
+}
+
+
+
+
+
+
+/* /////////////////////////////////////////////////////////// */
+
+
+
+
+
+
+
 /* barra fissa in alto */
 .menufixed {
     width: 100%;
@@ -42,51 +121,26 @@ a {
 .allineasx {
     float: left;
     list-style-type: none;
-    margin-right: 20px;
+    margin-right: 15px;
 }
 
 
 .allinea {
     float: left;
     list-style-type: none;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 
-
-
-.tastinav{
-    display: inline-block;
-}
-
-
-
+/* spaziatura tra tasti */
 .tastinav {
     margin-left: 30px;
 }
 
 
-/* per 2 colonne */
-.colonna20 {
-    width: 20%;
-    height: 80px;
-    /* background-color:yellow; */
-    float: left;
-}
-
-/* per due colonne non centrate */
-.colonna80 {
-    width: 80%;
-    height: 80px;
-    /* background-color: red; */
-    float: left;
-}
-
 .logohub {
     margin-top: 25px;
 }
-
-
 
 /* barra con logo */
 .menunav {
@@ -97,13 +151,7 @@ a {
     margin-top: 80px;
     line-height: 80px;
 }
-/* per colonne centrate  */
-.colonna50 {
-    width: 50%;
-    height: 80px;
-    background-color:;
-    float: left;
-}
+
 
 h1 {
     width: 600px;
@@ -119,7 +167,8 @@ h1 {
 }
 
 .textjumbo {
-padding-top: 50px;
+    padding-top: 50px;
+    text-align: left;
 }
 
 
@@ -136,6 +185,8 @@ padding-top: 50px;
 main {
     background-color: #f4f9fd;
 }
+
+
 .imgcubo {
     width: 100%;
     height: 400px;
@@ -206,14 +257,6 @@ main {
     padding: 8px;
 } */
 
-
-.colonne33 {
-    width: calc(100% / 3);
-    /* height: 100px; */
-    /* background-color:#fff; */
-    /* border: 1px solid black; */
-    float: left;
-}
 
 .icona3colonne {
     width: 301.3px;
@@ -444,9 +487,9 @@ main {
     font-size: 12px;
     text-align: center;
 }
+
 .iconesupport .fab {
     margin-right: 20px;
-
 }
 
 
@@ -499,12 +542,4 @@ main {
 #copy {
     color: #fff;
     margin-top: 15px;
-}
-
-
-.colonne25 {
-    width: calc(100% / 4);
-    height: 100px;
-    /* background-color: purple; */
-    float: left;
 }
