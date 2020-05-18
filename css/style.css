@@ -11,16 +11,40 @@ body {
 a {
     text-decoration: none;
     color: #000;
+}
 
+.listfooter a {
+    color: #7e8f9e;
+}
+
+.boxfooter a:hover {
+    color: #75ccdb;
+}
+
+.boxcredit a {
+    color: #7e8f9e;
+}
+
+.boxcredit a:hover {
+    color: #75ccdb
 }
 
 
 h1, h3, h2 {
-color: #475a6c;
+    color: #475a6c;
 }
 
 .boxgrad h2 {
-color: #fff;
+    color: #fff;
+}
+
+h2 {
+font-size: 30px;
+}
+
+.testobox2 h2 {
+    font-size: 45px;
+
 }
 
 .boxgrad p {
@@ -31,6 +55,13 @@ p {
     line-height: 30px;
     color: #475a6c;
 }
+/* frase sotto button gethubfree */
+.frasesotto {
+    font-size: 12px;
+    margin-top: 95px;
+}
+
+
 
                                 /* ////BOTTONI//// */
 .learnbuttoncrm {
@@ -60,7 +91,7 @@ p {
 .gethubfreebut {
     background-color: #fe775a;
     padding: 20px;
-    margin-top: 30px;
+    margin-top: 10px;
     width: 180px;
     border-radius: 5px;
     color: #fff;
@@ -90,6 +121,8 @@ p {
     padding: 10px;
     background-color: #fff;
     color: #fe775a;
+    float: left;
+    margin-right: 8px;
 }
 
 .get {
@@ -99,9 +132,8 @@ p {
     color: #fff;
     background-color: #fe775a;
     font-size:15px;
+    float: left;
 }
-
-
 
                                 /* ////BOTTONI//// */
 
@@ -170,6 +202,10 @@ p {
     margin-left: 5px;
 }
 
+#lens {
+    margin-top: 10px;
+}
+
 .search .fas {
     color: #75ccdb;
 }
@@ -180,7 +216,7 @@ p {
 
 .search {
     height: 80px;
-    margin-top: 30px;
+    margin-top: 20px;
 
 }
 
@@ -308,17 +344,12 @@ main {
     padding: 15px;
     margin-left: 100px;
     margin-top: 60px;
-}
-
-
-.crmicona h3 {
-    text-align: center;
-    margin-left: 120px;
+    /* float: left; */
 }
 
 .crmtesto {
     margin-left: 100px;
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 .crmtesto p {
@@ -328,6 +359,7 @@ main {
 .popular {
     margin-top: 30px;
     display: inline-block;
+    color: #374a5e;
 }
 
 .separatore {
@@ -370,12 +402,15 @@ main {
     font-weight: bold;
     margin-top: 25px;
     margin-bottom: 25px;
+    text-align: center;
+    color: #32495b;
 }
 
 .lista33 {
      list-style-type: none;
      text-align: left;
      line-height: 10px;
+     color: #32495b;
 }
 
 .lista33 > .fas {
@@ -517,13 +552,12 @@ main {
     line-height: 25px;
 }
 
-
-
 .woman {
-    width: 220px;
+    width: 250px;
     height: 300px;
     margin-left: 200px;
     float: right;
+    margin-bottom: 10px;
 }
 
 .boxfooter {
@@ -552,8 +586,6 @@ main {
     font-weight: bold;
     color: #fff;
 }
-
-
 
 
 .iconesupport .fab {
