@@ -10,12 +10,10 @@ body {
 
 a {
     text-decoration: none;
-}
-
-a:visited {
     color: #000;
 
 }
+
 
 h1, h3, h2 {
 color: #475a6c;
@@ -34,6 +32,78 @@ p {
     color: #475a6c;
 }
 
+                                /* ////BOTTONI//// */
+.learnbuttoncrm {
+    background-color: #fe775a;
+    padding: 20px;
+    margin-top:2px;
+    margin-left: 85px;
+    float: left;
+    width: 180px;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+}
+
+.supportbutton {
+    color: #fff;
+    background-color: #dadee0;
+    margin-top: 10px;
+    width: 180px;
+    border-radius: 5px;
+    color: #32495b;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.gethubfreebut {
+    background-color: #fe775a;
+    padding: 20px;
+    margin-top: 30px;
+    width: 180px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    float: left;
+}
+
+.learnbutton {
+    color: #fff;
+    background-color: #fe775a;
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 35px;
+    margin-bottom: 20px;
+    width: 180px;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    float: left;
+}
+
+.login {
+    border: 1px solid #fe775a;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #fff;
+    color: #fe775a;
+}
+
+.get {
+    border: 1px solid #fe775a;
+    border-radius: 5px;
+    padding: 10px;
+    color: #fff;
+    background-color: #fe775a;
+    font-size:15px;
+}
+
+
+
+                                /* ////BOTTONI//// */
 
 
 /* regola clearfix */
@@ -108,29 +178,10 @@ p {
     margin-left: 8px;
 }
 
-#lens {
-    margin-top: 10px;
-}
-
-.login {
-    border: 1px solid #fe775a;
-    border-radius: 5px;
-    padding: 10px;
-    background-color: #fff;
-    color: #fe775a;
-}
-
-.get {
-    border: 1px solid #fe775a;
-    border-radius: 5px;
-    padding: 10px;
-    color: #fff;
-    background-color: #fe775a;
-}
-
 .search {
     height: 80px;
-    margin-top: 20px;
+    margin-top: 30px;
+
 }
 
 .selectlingua {
@@ -138,22 +189,7 @@ p {
     line-height: 80px;
 }
 
-
-
-
-
-
-
-
-
-
 /* /////////////////////////////////////////////////////////// */
-
-
-
-
-
-
 
 /* barra fissa in alto */
 .menufixed {
@@ -274,18 +310,6 @@ main {
     margin-top: 60px;
 }
 
-.learnbuttoncrm {
-    background-color: #fe775a;
-    padding: 20px;
-    margin-top:2px;
-    margin-left: 85px;
-    float: left;
-    width: 180px;
-    border-radius: 5px;
-    color: #fff;
-    text-align: center;
-}
-
 
 .crmicona h3 {
     text-align: center;
@@ -318,12 +342,6 @@ main {
 .iconecheck {
     margin-top: 50px;
 }
-
-/* .fas {
-    color: #fe775a;
-    padding: 8px;
-} */
-
 
 .icona3colonne {
     width: 301.3px;
@@ -364,18 +382,6 @@ main {
     padding: 2px;
 }
 
-.learnbutton {
-    background-color: #fe775a;
-    padding: 20px;
-    margin-top: 30px;
-    margin-left: 35px;
-    margin-bottom: 20px;
-    width: 180px;
-    border-radius: 5px;
-    color: #fff;
-    text-align: center;
-    float: left;
-}
 
 /* regole per box a 3 colonne */
 .box33, .box33right, .box33center {
@@ -390,7 +396,10 @@ main {
 .box33center {
     background-color: ;
     margin-left: 27.44px;
+}
 
+.box33right {
+    float: right;
 }
 
 
@@ -508,17 +517,7 @@ main {
     line-height: 25px;
 }
 
-.learnbutton3 {
-    background-color: #fe775a;
-    padding: 20px;
-    margin-top: 30px;
-    width: 180px;
-    border-radius: 5px;
-    color: #fff;
-    font-size: 12px;
-    text-align: center;
-    float: left;
-}
+
 
 .woman {
     width: 220px;
@@ -555,16 +554,7 @@ main {
 }
 
 
-.supportbutton {
-    background-color: #dadee0;
-    padding: 1px;
-    margin-top: 10px;
-    width: 180px;
-    border-radius: 5px;
-    color: #32495b;
-    font-size: 12px;
-    text-align: center;
-}
+
 
 .iconesupport .fab {
     margin-right: 20px;
@@ -613,9 +603,9 @@ main {
 }
 
 
-#bn {
+/* #bn {
     filter: grayscale(100%);
-}
+} */
 
 #copy {
     color: #fff;
