@@ -60,7 +60,6 @@ font-size: 30px;
 
 .testobox2 h2 {
     font-size: 45px;
-
 }
 
 .boxgrad p {
@@ -77,7 +76,7 @@ p {
     margin-top: 95px;
 }
 
-                                /* ////BOTTONI//// */
+                             /* ////BOTTONI//// */
 .learnbuttoncrm {
     background-color: #fe775a;
     padding: 20px;
@@ -496,6 +495,7 @@ h1 {
     padding: 0;
     color: #fff;
 }
+
 
 .box2 {
     width: 100%;
