@@ -10,9 +10,23 @@ body {
 
 a {
     text-decoration: none;
-    color: #000;
+    color: #475a6c;
 }
 
+/* regola clearfix */
+.riga::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* regola per centrare i contenuti */
+.centratura {
+    padding: 0 15%;
+}
+
+
+/* link parte inferiore */
 .listfooter a {
     color: #7e8f9e;
 }
@@ -20,7 +34,8 @@ a {
 .boxfooter a:hover {
     color: #75ccdb;
 }
-
+/* //////////////////////// */
+/* link footer */
 .boxcredit a {
     color: #7e8f9e;
 }
@@ -28,12 +43,13 @@ a {
 .boxcredit a:hover {
     color: #75ccdb
 }
+/* //////////////////////// */
 
 
 h1, h3, h2 {
     color: #475a6c;
 }
-
+/* link nella parte con gradiente */
 .boxgrad h2 {
     color: #fff;
 }
@@ -60,8 +76,6 @@ p {
     font-size: 12px;
     margin-top: 95px;
 }
-
-
 
                                 /* ////BOTTONI//// */
 .learnbuttoncrm {
@@ -115,6 +129,11 @@ p {
     float: left;
 }
 
+#lens {
+    margin-top: 10px;
+}
+
+
 .login {
     border: 1px solid #fe775a;
     border-radius: 5px;
@@ -134,29 +153,13 @@ p {
     font-size:15px;
     float: left;
 }
-
                                 /* ////BOTTONI//// */
-
-
-/* regola clearfix */
-.riga::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-/* regola per centrare i contenuti */
-.centratura {
-    padding: 0 15%;
-}
 
 /* regola per 2 colonne */
 .colonna20 {
     width: 20%;
     height: 80px;
     float: left;
-    /* background-color:yellow; */
-
 }
 
 /* regola per due colonne non centrate */
@@ -164,7 +167,6 @@ p {
     width: 80%;
     height: 80px;
     float: left;
-    /* background-color: red; */
 }
 
 /* per colonne centrate  */
@@ -178,33 +180,31 @@ p {
 /* per sezione divisa in 3 */
 .colonne33 {
     width: calc(100% / 3);
+    float: left;
     /* height: 100px; */
     /* background-color:#fff; */
     /* border: 1px solid black; */
-    float: left;
 }
 
 /* per sezione divisa in 4 */
 .colonne25 {
     width: calc(100% / 4);
     height: 100px;
+        float: left;
     /* background-color: purple; */
-    float: left;
 }
-/* gestione fa */
+
+/* gestione fas */
 .lista33 .fas {
     color: #fe775a;
 }
 
 .iconecheck .fas {
     color: #fe775a;
-    margin-right:10px;
-    margin-left: 5px;
+    margin-right:0px;
+    margin-left: 10px;
 }
 
-#lens {
-    margin-top: 10px;
-}
 
 .search .fas {
     color: #75ccdb;
@@ -217,7 +217,6 @@ p {
 .search {
     height: 80px;
     margin-top: 20px;
-
 }
 
 .selectlingua {
@@ -237,7 +236,6 @@ p {
     z-index: 999;
     /* line-height: 80px; */
 }
-
 
 .navbar, .search {
     float: right;
@@ -303,11 +301,11 @@ h1 {
     background-image: url('../img/jumbotron.png');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: right bottom;
 
 }
 
-main {
+#sfondo {
     background-color: #f4f9fd;
 }
 
@@ -327,7 +325,7 @@ main {
 #cubetext {
     margin-top: 20px;
 }
-
+/* parte crm */
 .box {
     width: 100%;
     height: 400px;
@@ -344,7 +342,6 @@ main {
     padding: 15px;
     margin-left: 100px;
     margin-top: 60px;
-    /* float: left; */
 }
 
 .crmtesto {
@@ -437,8 +434,7 @@ main {
     float: right;
 }
 
-
-/* inizio parte con gradiente */
+/* inizio parte con gradiente di sfondo*/
 .boxgrad {
     width: 100%;
     height: 700px;
@@ -452,6 +448,7 @@ main {
     text-align: center;
     padding-top: 40px;
 }
+
 .gradtext > p {
     line-height: 30px;
 }
@@ -463,7 +460,6 @@ main {
     height: 200px;
     background-color:;
     float: left;
-
 }
 
 .cellesxtop {
@@ -481,7 +477,6 @@ main {
 
 .boxtabella {
     margin-top: 50px;
-
 }
 
 .iconacella, .testocella {
@@ -504,7 +499,7 @@ main {
 
 .box2 {
     width: 100%;
-    height: 250px;
+    height: 245px;
     background-color:#fff;
 }
 
@@ -587,11 +582,9 @@ main {
     color: #fff;
 }
 
-
 .iconesupport .fab {
     margin-right: 20px;
 }
-
 
 .separatorefooter {
     height: 1px;
@@ -621,7 +614,7 @@ main {
     width: 100%;
     color: #7e8f9e;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 .lingue li {
@@ -633,11 +626,6 @@ main {
 .legalinfo > a {
     color: #fff;
 }
-
-
-/* #bn {
-    filter: grayscale(100%);
-} */
 
 #copy {
     color: #fff;
